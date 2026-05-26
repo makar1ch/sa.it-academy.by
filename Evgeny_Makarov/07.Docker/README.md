@@ -34,9 +34,9 @@ For more examples and ideas, visit:
 
 ```
 docker images
-                                                                                                                          i Info →   U  In Use
-IMAGE                                                                                         ID             DISK USAGE   CONTENT SIZE   EXTRA
-hello-world:latest                                                                            0e760fdfbc48       22.6kB         10.3kB    U   
+                                                                             i Info →   U  In Use
+IMAGE                                            ID             DISK USAGE   CONTENT SIZE   EXTRA
+hello-world:latest                                  0e760fdfbc48       22.6kB         10.3kB    U   
 ```
 
 ### Assignment 2:
@@ -54,6 +54,7 @@ Contains dependencies
 
 #### Access the app
 `docker run -d -p 8080:5000 --name flask-container flask-app`
+
 `curl http://localhost:8080` returns "Hello from Docker!"
 
 #### History
